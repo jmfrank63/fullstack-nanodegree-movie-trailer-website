@@ -4,6 +4,7 @@ contains a list of movie instances
 from media import Movie
 from fresh_tomatoes import open_movies_page
 
+# create the movie objects
 fight_club = Movie('Fight Club',
                    './images/MoviePosterFightClub.jpg',
                    'https://www.youtube.com/watch?v=SUXWAEX2jlg')
@@ -28,7 +29,10 @@ midway = Movie('Midway',
                './images/Midway.jpg',
                'https://www.youtube.com/watch?v=2CGbpbclYyQ')
 
+# add them to a list
 movies = [fight_club, moon, space_odyssey,
           bienvenue_chez_le_chtis, erleuchtung_garantiert,
           midway]
+
+# create the movie html page
 open_movies_page(movies)
