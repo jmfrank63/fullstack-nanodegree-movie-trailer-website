@@ -12,7 +12,7 @@ moon = Movie('Moon',
              './images/MoviePosterMoon.jpg',
              'https://www.youtube.com/watch?v=twuScTcDP_Q')
 
-space_odyssey = Movie('A Space Odysee',
+space_odyssey = Movie('2001 A Space Odysee',
                       './images/MoviePoster2001.jpg',
                       'https://www.youtube.com/watch?v=XHjIqQBsPjk')
 
@@ -20,7 +20,7 @@ bienvenue_chez_le_chtis = Movie("Bienvenue chez le Ch'tis",
                                 "./images/Bienvenue_chez_les_CH'TIS.jpg",
                                 "https://www.youtube.com/watch?v=fY5cWL4SUmw")
 
-erleuchtung_garantiert = Movie('Erleuchtung garantiert',
+erleuchtung_garantiert = Movie('enlightment garanteed',
                                './images/ErleuchtungGarantiert.jpg',
                                'https://www.youtube.com/watch?v=lBQyCvxMPyk')
 
